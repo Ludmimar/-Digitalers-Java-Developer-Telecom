@@ -55,8 +55,6 @@ Al finalizar este módulo podrás:
 ## 👨‍💻 Autor
 
 **Desarrollador**: Ludmila Martos  
-**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
-**Etapa**: 3 - Modelo de Negocios Completo
 
 ## 📞 Contacto
 
@@ -64,4 +62,3 @@ Al finalizar este módulo podrás:
 - **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
 - **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
----
