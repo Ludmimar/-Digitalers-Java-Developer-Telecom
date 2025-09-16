@@ -54,7 +54,18 @@ Formar desarrolladores **Java Fullstack** y **web**, con habilidades en **backen
 *Este repositorio se actualizará constantemente, incorporando cada módulo con ejemplos, ejercicios y materiales complementarios.*
 
 
+---
 
-✍️ Autor
+## 👨‍💻 Autor
 
-Martos Ludmila  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+- **Desarrollador**: Ludmila Martos
+- **Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador
+- **Etapa**: 2 - Desarrollo de Clase Cliente
+
+## 📞 Contacto
+
+-  [Email](ludmilamartos@gmail.com)
+-  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+- [GitHub](https://github.com/Ludmimar)
+
+---
