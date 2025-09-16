@@ -244,14 +244,6 @@ class SistemaFintech {
 - [x] Documentación técnica detallada
 - [x] Casos de error cubiertos
 
-### Próximas Etapas 🔮
-- [ ] Integración con APIs bancarias
-- [ ] Sistema de notificaciones
-- [ ] Reportes y análisis financiero
-- [ ] Seguridad avanzada (hash de passwords)
-- [ ] Base de datos persistente
-
-
 
 ## 👨‍💻 Autor
 
@@ -274,5 +266,6 @@ class SistemaFintech {
 ![Fintech](https://img.shields.io/badge/Fintech-System-green?style=for-the-badge&logo=bank&logoColor=white)
 
 </div>
+
 
 
