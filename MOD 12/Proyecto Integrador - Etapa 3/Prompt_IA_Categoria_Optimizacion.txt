@@ -1,0 +1,20 @@
+PROMPT PARA IA - OPTIMIZACIÓN DE TABLA CATEGORIA
+
+Analiza el siguiente código SQL para crear la tabla CATEGORIA y identifica errores y posibles optimizaciones:
+
+```sql
+CREATE TABLE IF EXISTS CATEGORIA (
+CategoriaID INT NOT,
+Nombre VARCHAR(50) NOT NULL,
+Descripcion VARCHAR(255),
+PRIMARY KEY (CategoriaID)
+);
+```
+
+Por favor:
+1. Identifica todos los errores de sintaxis
+2. Sugiere optimizaciones para mejorar la estructura
+3. Proporciona el código SQL corregido y optimizado
+4. Explica cada corrección realizada
+
+Considera que esta tabla será utilizada para categorizar artículos de una empresa de tecnología.

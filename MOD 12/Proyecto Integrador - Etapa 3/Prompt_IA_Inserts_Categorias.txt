@@ -1,0 +1,23 @@
+PROMPT PARA IA - GENERAR INSERTS PARA CATEGORÍAS DE TECNOLOGÍA
+
+Genera código SQL INSERT para agregar 10 registros a la tabla CATEGORIA de una empresa de tecnología.
+
+Estructura de la tabla:
+- CategoriaID: INT AUTO_INCREMENT (no incluir en INSERT)
+- Nombre: VARCHAR(50) NOT NULL
+- Descripcion: VARCHAR(255)
+
+Requisitos:
+1. Las categorías deben ser apropiadas para una empresa de tecnología
+2. Incluir categorías como: hardware, software, periféricos, redes, etc.
+3. Los nombres deben ser descriptivos y profesionales
+4. Las descripciones deben ser claras y detalladas
+5. Proporcionar el código SQL completo listo para ejecutar
+
+Ejemplo de formato esperado:
+```sql
+INSERT INTO CATEGORIA (Nombre, Descripcion) VALUES
+('Categoría 1', 'Descripción detallada de la categoría 1'),
+('Categoría 2', 'Descripción detallada de la categoría 2'),
+...
+```

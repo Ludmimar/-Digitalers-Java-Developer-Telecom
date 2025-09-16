@@ -1,0 +1,22 @@
+PROMPT PARA IA - MODIFICAR TABLA ARTICULOS CON CAMPO CATEGORIA
+
+Genera código SQL para modificar la tabla ARTICULOS agregando un campo que se relacione con la tabla CATEGORIA.
+
+Información de las tablas:
+- Tabla ARTICULOS: ya existe con campos ARTICULO_ID, NOMBRE, PRECIO, STOCK
+- Tabla CATEGORIA: ya existe con campos CategoriaID, Nombre, Descripcion
+
+Requisitos:
+1. Agregar un campo CategoriaID a la tabla ARTICULOS
+2. El campo debe ser de tipo INT
+3. Debe tener valor por defecto 1
+4. Debe crear una relación de clave foránea con la tabla CATEGORIA
+5. El campo debe permitir valores NULL inicialmente
+6. Proporcionar el código SQL completo listo para ejecutar
+
+Considera que:
+- La tabla ARTICULOS ya tiene datos existentes
+- El valor por defecto 1 debe corresponder a una categoría existente
+- La relación debe mantener la integridad referencial
+</parameter>
+</invoke>
