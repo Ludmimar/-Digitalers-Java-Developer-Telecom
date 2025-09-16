@@ -16,7 +16,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 2 | Introducción a Java – Casting, String y Math | ✅ Completado |
 | 3 | Condicionales – if, if else, anidados, switch, operador ternario | ✅ Completado |
 | 4 | Estructuras de bucle – while, do while, for, break/continue | ✅ Completado |
-| 5 | Métodos y arreglos – introducción, parámetros, tipos de métodos, manejo de arreglos | 🔹 Próximo |
+| 5 | Métodos y arreglos – introducción, parámetros, tipos de métodos, manejo de arreglos | ✅ Completado |
 | 20 | Java básico – JDK, JVM, sintaxis, Eclipse, Maven, variables, operadores, flujo | 🔹 Próximo |
 
 ---
