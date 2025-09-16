@@ -178,18 +178,20 @@ WHERE i.Valor > 39;
 - Todas las relaciones son obligatorias (NOT NULL en claves foráneas)
 - El sistema mantiene una jerarquía lógica: Provincia → Localidad → Cliente → Movimiento → Item
 
-## 🛠️ Mejoras Futuras
+---
 
-- Agregar índices en claves foráneas para mejorar rendimiento
-- Implementar reglas de cascada (ON DELETE/UPDATE)
-- Agregar campos de auditoría (fecha creación/modificación)
-- Crear vistas para consultas frecuentes
-- Implementar procedimientos almacenados
+## 👨‍💻 Autor
 
-## 📄 Licencia
+- **Desarrollador**: Ludmila Martos
 
-Este proyecto es parte de un ejercicio académico y está disponible para fines educativos.
+## 📞 Contacto
+
+-  [Email](ludmilamartos@gmail.com)
+-  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+- [GitHub](https://github.com/Ludmimar)
 
 ---
 
+
 **Desarrollado como parte del Módulo 10 - Desafío de Base de Datos**
+
