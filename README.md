@@ -22,7 +22,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 9 | Integración frontend-backend – HTML con IA, JS, prototipo funcional, GitHub Pages | ✅ Completado |
 | 10 | Bases de datos – Introducción, ER, SQL, consultas básicas, IA | ✅ Completado |
 | 11 | Manejo de BD – IDE, inserción de registros, masivo, estructuras, where | ✅ Completado |
-| 12 | Consultas avanzadas – creación, actualización, eliminación, errores con IA | 🔹 Próximo |
+| 12 | Consultas avanzadas – creación, actualización, eliminación, errores con IA | ✅ Completado |
 | 13 | Funciones de agrupamiento y joins – count, sum, group by, join, IA | 🔹 Próximo |
 | 14 | Funciones avanzadas – subconsultas, case, texto, fecha, matemáticas, backup | 🔹 Próximo |
 | 15 | HTML básico – estructura, texto, CSS inicial, integración con IA | 🔹 Próximo |
