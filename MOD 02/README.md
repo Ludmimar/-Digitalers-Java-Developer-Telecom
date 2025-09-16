@@ -30,11 +30,10 @@ Dominar las bases del **manejo de datos, cadenas y operaciones matemáticas** en
 ## 👨‍💻 Autor
 
 **Desarrollador**: Ludmila Martos  
-**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
-**Etapa**: 3 - Modelo de Negocios Completo
 
 ## 📞 Contacto
 
 - **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
 - **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
 - **GitHub**: [Ludmimar](https://github.com/Ludmimar)
+
