@@ -145,5 +145,20 @@ Este proyecto demuestra:
 
 ---
 
+## 👨‍💻 Autor
+
+- **Desarrollador**: Ludmila Martos
+- **Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador
+- **Etapa**: 2 - Desarrollo de Clase Cliente
+
+## 📞 Contacto
+
+-  [Email](ludmilamartos@gmail.com)
+-  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+- [GitHub](https://github.com/Ludmimar)
+
+---
+
 **Desarrollado como parte del Proyecto Integrador Etapa 1**  
 *Demo de aplicación Fintech con tecnologías web frontend*
+
