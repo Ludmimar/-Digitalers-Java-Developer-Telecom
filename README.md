@@ -16,7 +16,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 3 | Condicionales – if, if else, anidados, switch, operador ternario | ✅ Completado |
 | 4 | Estructuras de bucle – while, do while, for, break/continue | ✅ Completado |
 | 5 | Métodos y arreglos – introducción, parámetros, tipos de métodos, manejo de arreglos | ✅ Completado |
-| 6 | Entorno de desarrollo – VS Code, LiveShare, GitHub, Coding Assistants | 🔹 Próximo |
+| 6 | Entorno de desarrollo – VS Code, LiveShare, GitHub, Coding Assistants | ✅ Completado |
 | 7 | Clases y objetos – atributos, métodos, constructores, encapsulamiento, testing | 🔹 Próximo |
 | 8 | Modelo orientado a objetos con IA – análisis, diagramas, buenas prácticas | 🔹 Próximo |
 | 9 | Integración frontend-backend – HTML con IA, JS, prototipo funcional, GitHub Pages | 🔹 Próximo |
