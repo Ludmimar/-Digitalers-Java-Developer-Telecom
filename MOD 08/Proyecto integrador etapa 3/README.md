@@ -497,40 +497,6 @@ importarDatos(datos)
 - [x] **Manejo de errores** profesional y descriptivo
 - [x] **Casos edge** cubiertos exhaustivamente
 
-### Próximas Etapas 🔮
-- [ ] **Integración con APIs bancarias** reales
-- [ ] **Sistema de notificaciones** (email, SMS)
-- [ ] **Reportes avanzados** y analytics con gráficos
-- [ ] **Seguridad avanzada** (hash de passwords, 2FA)
-- [ ] **Base de datos persistente** (reemplazar localStorage)
-- [ ] **API REST** para integración externa
-- [ ] **Sistema de auditoría** y logging
-- [ ] **Multi-moneda** y tipos de cambio
-- [ ] **Machine Learning** para scoring crediticio
-- [ ] **Integración blockchain** para transparencia
-
-
-
-## 🤝 Contribución
-
-### Cómo Contribuir
-1. **Fork** el proyecto
-2. **Crear** una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** a la rama (`git push origin feature/AmazingFeature`)
-5. **Abrir** un Pull Request
-
-### Estándares de Código
-- Usar **JavaScript ES6+**
-- Seguir **convenciones de nomenclatura** consistentes
-- Incluir **comentarios JSDoc** para métodos públicos
-- Escribir **pruebas unitarias** para nuevas funcionalidades
-- Mantener **compatibilidad** con navegadores modernos
-- Documentar **cambios importantes** en el README
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ## 👨‍💻 Autor
 
@@ -555,4 +521,5 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ![Documentation](https://img.shields.io/badge/Documentation-Complete-blue?style=for-the-badge&logo=readme&logoColor=white)
 
 </div>
+
 
