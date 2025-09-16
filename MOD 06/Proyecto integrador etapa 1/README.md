@@ -153,7 +153,7 @@ Este proyecto demuestra:
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
+-  [Email](mailto:ludmilamartos@gmail.com)
 -  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
 - [GitHub](https://github.com/Ludmimar)
 
@@ -161,4 +161,5 @@ Este proyecto demuestra:
 
 **Desarrollado como parte del Proyecto Integrador Etapa 1**  
 *Demo de aplicación Fintech con tecnologías web frontend*
+
 
