@@ -18,7 +18,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 5 | Métodos y arreglos – introducción, parámetros, tipos de métodos, manejo de arreglos | ✅ Completado |
 | 6 | Entorno de desarrollo – VS Code, LiveShare, GitHub, Coding Assistants | ✅ Completado |
 | 7 | Clases y objetos – atributos, métodos, constructores, encapsulamiento, testing | ✅ Completado |
-| 8 | Modelo orientado a objetos con IA – análisis, diagramas, buenas prácticas | 🔹 Próximo |
+| 8 | Modelo orientado a objetos con IA – análisis, diagramas, buenas prácticas | ✅ Completado |
 | 9 | Integración frontend-backend – HTML con IA, JS, prototipo funcional, GitHub Pages | 🔹 Próximo |
 | 10 | Bases de datos – Introducción, ER, SQL, consultas básicas, IA | 🔹 Próximo |
 | 11 | Manejo de BD – IDE, inserción de registros, masivo, estructuras, where | 🔹 Próximo |
