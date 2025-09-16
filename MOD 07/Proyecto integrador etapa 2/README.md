@@ -261,7 +261,7 @@ class SistemaFintech {
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
+-  [Email](mailto:ludmilamartos@gmail.com)
 -  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
 - [GitHub](https://github.com/Ludmimar)
 
@@ -274,4 +274,5 @@ class SistemaFintech {
 ![Fintech](https://img.shields.io/badge/Fintech-System-green?style=for-the-badge&logo=bank&logoColor=white)
 
 </div>
+
 
