@@ -1,0 +1,69 @@
+PROMPT PARA IA - ARTICULOS CON MAS DE 50 UNIDADES Y DETALLES RELACIONADOS
+================================================================
+
+OBJETIVO:
+Crear un prompt que genere consultas SQL para mostrar primero los artículos con más de 50 unidades disponibles y luego mostrar los detalles relacionados. Debe combinar los resultados en una sola lista, asegurándose una estrategia que combine los resultados de dos consultas.
+
+CONTEXTO:
+- Base de datos: TECNO_DB
+- Tablas involucradas: ARTICULOS, CATEGORIA, DETALLES, FACTURAS, CLIENTES
+- Requisito: Artículos con STOCK > 50 unidades
+- Estrategia: Combinar resultados de dos consultas usando UNION
+
+PROMPT PARA IA:
+
+"Genera código SQL para la base de datos TECNO_DB que cumpla con los siguientes requerimientos:
+
+1. PRIMERA CONSULTA: Mostrar todos los artículos que tengan más de 50 unidades en stock, incluyendo:
+   - ARTICULO_ID
+   - NOMBRE del artículo
+   - PRECIO
+   - STOCK actual
+   - CATEGORIA (nombre de la categoría)
+   - DESCRIPCION de la categoría
+   - Estado del stock (ALTO si > 100, MEDIO-ALTO si > 75, MEDIO si > 50)
+
+2. SEGUNDA CONSULTA: Mostrar los detalles de ventas relacionados con esos artículos, incluyendo:
+   - ARTICULO_ID
+   - NOMBRE del artículo
+   - STOCK actual
+   - CATEGORIA
+   - Cantidad de ventas realizadas
+   - Total de unidades vendidas
+   - Monto total vendido
+   - Promedio de unidades por venta
+
+3. TERCERA CONSULTA: Combinar ambas consultas en una sola lista usando UNION, donde:
+   - La primera parte muestre los artículos con stock > 50
+   - La segunda parte muestre los detalles de ventas de esos artículos
+   - Incluir un campo TIPO_REGISTRO para distinguir entre 'ARTICULO' y 'DETALLE_VENTA'
+   - Ordenar por ARTICULO_ID y tipo de registro
+
+4. ESTRUCTURA DE RESULTADO COMBINADO:
+   - TIPO_REGISTRO: 'ARTICULO' o 'DETALLE_VENTA'
+   - ARTICULO_ID: ID del artículo
+   - DESCRIPCION: Nombre del artículo o descripción del detalle
+   - CANTIDAD: Stock actual o cantidad vendida
+   - VALOR_UNITARIO: Precio del artículo
+   - CATEGORIA: Nombre de la categoría
+   - FACTURA_ID: ID de factura (solo para detalles)
+   - CLIENTE_NOMBRE: Nombre del cliente (solo para detalles)
+   - FECHA_VENTA: Fecha de la venta (solo para detalles)
+
+REQUISITOS TÉCNICOS:
+- Usar LEFT JOIN para incluir artículos sin categoría
+- Usar INNER JOIN para detalles de ventas
+- Filtrar solo artículos con STOCK > 50
+- Agrupar datos en la consulta de detalles
+- Usar UNION ALL para combinar resultados
+- Incluir comentarios explicativos en el código
+- Agregar consultas de verificación y resumen estadístico
+
+ESTRUCTURA DE TABLAS RELEVANTES:
+- ARTICULOS: ARTICULO_ID, NOMBRE, PRECIO, STOCK, CategoriaID
+- CATEGORIA: CategoriaID, Nombre, Descripcion
+- DETALLES: DETALLE_ID, ARTICULO_ID, FACTURA_ID, CANTIDAD
+- FACTURAS: FACTURA_ID, LETRA, NUMERO, CLIENTE_ID, FECHA, MONTO
+- CLIENTES: CLIENTE_ID, NOMBRE, APELLIDO
+
+El código debe ser ejecutable directamente en MySQL y debe incluir verificaciones de integridad de datos."
