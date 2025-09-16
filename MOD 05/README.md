@@ -52,6 +52,16 @@ Al finalizar este módulo podrás:
 *Este módulo es parte del curso **Java Fullstack & Desarrollo Web**, y se conecta con los temas de condicionales y bucles trabajados previamente.*
 
 
-✍️ Autor
+## 👨‍💻 Autor
 
-Martos Ludmila  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+**Desarrollador**: Ludmila Martos  
+**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
+**Etapa**: 3 - Modelo de Negocios Completo
+
+## 📞 Contacto
+
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
+
+---
