@@ -19,7 +19,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 6 | Entorno de desarrollo – VS Code, LiveShare, GitHub, Coding Assistants | ✅ Completado |
 | 7 | Clases y objetos – atributos, métodos, constructores, encapsulamiento, testing | ✅ Completado |
 | 8 | Modelo orientado a objetos con IA – análisis, diagramas, buenas prácticas | ✅ Completado |
-| 9 | Integración frontend-backend – HTML con IA, JS, prototipo funcional, GitHub Pages | 🔹 Próximo |
+| 9 | Integración frontend-backend – HTML con IA, JS, prototipo funcional, GitHub Pages | ✅ Completado |
 | 10 | Bases de datos – Introducción, ER, SQL, consultas básicas, IA | 🔹 Próximo |
 | 11 | Manejo de BD – IDE, inserción de registros, masivo, estructuras, where | 🔹 Próximo |
 | 12 | Consultas avanzadas – creación, actualización, eliminación, errores con IA | 🔹 Próximo |
@@ -59,8 +59,6 @@ Formar desarrolladores **Java Fullstack** y **web**, con habilidades en **backen
 ## 👨‍💻 Autor
 
 - **Desarrollador**: Ludmila Martos
-- **Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador
-- **Etapa**: 2 - Desarrollo de Clase Cliente
 
 ## 📞 Contacto
 
