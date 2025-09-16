@@ -58,6 +58,16 @@ Al finalizar este módulo podrás:
 ---
 *Este módulo conecta los conceptos de POO aprendidos previamente con herramientas modernas de IA para diseño y modelado de software.*
 
-✍️ Autor
+## 👨‍💻 Autor
 
-Martos Ludmila  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+**Desarrollador**: Ludmila Martos  
+**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
+**Etapa**: 3 - Modelo de Negocios Completo
+
+## 📞 Contacto
+
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
+
+---
