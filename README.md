@@ -23,8 +23,8 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 10 | Bases de datos – Introducción, ER, SQL, consultas básicas, IA | ✅ Completado |
 | 11 | Manejo de BD – IDE, inserción de registros, masivo, estructuras, where | ✅ Completado |
 | 12 | Consultas avanzadas – creación, actualización, eliminación, errores con IA | ✅ Completado |
-| 13 | Funciones de agrupamiento y joins – count, sum, group by, join, IA | 🔹 Próximo |
-| 14 | Funciones avanzadas – subconsultas, case, texto, fecha, matemáticas, backup | 🔹 Próximo |
+| 13 | Funciones de agrupamiento y joins – count, sum, group by, join, IA | ✅ Completado |
+| 14 | Funciones avanzadas – subconsultas, case, texto, fecha, matemáticas, backup | ✅ Completado |
 | 15 | HTML básico – estructura, texto, CSS inicial, integración con IA | 🔹 Próximo |
 | 16 | HTML y CSS – imágenes, vínculos, anclas, cajas, propiedades y IA | 🔹 Próximo |
 | 17 | Formularios HTML – inputs, menús, validación, Pattern y DatePicker con IA | 🔹 Próximo |
