@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fintech - Proyecto Integrador</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="header-content">
+        <h1><i class="fas fa-university"></i> Fintech</h1>
+        <div id="auth-area">
+          <!-- mostrado según estado -->
+        </div>
+      </div>
+      
+      <!-- Navegación principal (solo visible cuando está autenticado) -->
+      <nav id="main-navigation" class="hidden">
+        <ul class="nav-list">
+          <li><a href="#/dashboard" class="nav-item" data-route="dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+          <li><a href="#/profile" class="nav-item" data-route="profile"><i class="fas fa-user"></i> Perfil</a></li>
+          <li><a href="#/accounts" class="nav-item" data-route="accounts"><i class="fas fa-wallet"></i> Cuentas</a></li>
+          <li><a href="#/transfers" class="nav-item" data-route="transfers"><i class="fas fa-exchange-alt"></i> Transferencias</a></li>
+          <li><a href="#/deposits" class="nav-item" data-route="deposits"><i class="fas fa-plus-circle"></i> Depósitos</a></li>
+          <li><a href="#/cards" class="nav-item" data-route="cards"><i class="fas fa-credit-card"></i> Tarjetas</a></li>
+          <li><a href="#/loans" class="nav-item" data-route="loans"><i class="fas fa-hand-holding-usd"></i> Préstamos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Vista de Login -->
+    <section data-view="login-view" class="view">
+      <div class="card auth-card">
+        <div class="auth-header">
+          <h2><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</h2>
+          <p>Accede a tu cuenta Fintech</p>
+        </div>
+        
+        <form id="form-login" class="form">
+          <div class="form-group">
+            <label for="login-email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" id="login-email" required placeholder="tu@email.com" />
+          </div>
+          
+          <div class="form-group">
+            <label for="login-pass"><i class="fas fa-lock"></i> Contraseña</label>
+            <input type="password" id="login-pass" required placeholder="Tu contraseña" />
+          </div>
+          
+          <button type="submit" class="btn-primary">
+            <i class="fas fa-sign-in-alt"></i> Ingresar
+          </button>
+        </form>
+        
+        <div class="auth-footer">
+          <p>¿No tienes cuenta? <a href="#/register" class="link">Regístrate aquí</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista de Registro -->
+    <section data-view="register-view" class="view hidden">
+      <div class="card auth-card">
+        <div class="auth-header">
+          <h2><i class="fas fa-user-plus"></i> Crear Cuenta</h2>
+          <p>Únete a Fintech y comienza a gestionar tus finanzas</p>
+        </div>
+        
+        <form id="form-register" class="form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-nombre"><i class="fas fa-user"></i> Nombre</label>
+              <input type="text" id="reg-nombre" required placeholder="Tu nombre" />
+            </div>
+            <div class="form-group">
+              <label for="reg-apellido"><i class="fas fa-user"></i> Apellido</label>
+              <input type="text" id="reg-apellido" required placeholder="Tu apellido" />
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="reg-dni"><i class="fas fa-id-card"></i> DNI</label>
+            <input type="text" id="reg-dni" required placeholder="12345678" />
+          </div>
+          
+          <div class="form-group">
+            <label for="reg-email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" id="reg-email" required placeholder="tu@email.com" />
+          </div>
+          
+          <div class="form-group">
+            <label for="reg-pass"><i class="fas fa-lock"></i> Contraseña</label>
+            <input type="password" id="reg-pass" required placeholder="Mínimo 6 caracteres" />
+          </div>
+          
+          <button type="submit" class="btn-primary">
+            <i class="fas fa-user-plus"></i> Crear Cuenta
+          </button>
+        </form>
+        
+        <div class="auth-footer">
+          <p>¿Ya tienes cuenta? <a href="#/login" class="link">Inicia sesión aquí</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista de Dashboard -->
+    <section data-view="dashboard-view" class="view hidden">
+      <div class="dashboard-header">
+        <h2><i class="fas fa-tachometer-alt"></i> Dashboard</h2>
+        <p>Resumen de tu actividad financiera</p>
+      </div>
+      
+      <div class="dashboard-grid">
+        <div class="card summary-card">
+          <h3><i class="fas fa-user"></i> Información Personal</h3>
+          <div class="summary-item">
+            <span class="label">Usuario:</span>
+            <span id="user-email" class="value"></span>
+          </div>
+          <div class="summary-item">
+            <span class="label">Cuentas activas:</span>
+            <span id="user-accounts-count" class="value">0</span>
+          </div>
+          <div class="summary-item">
+            <span class="label">Saldo total:</span>
+            <span id="user-total-balance" class="value">$0.00</span>
+          </div>
+          <button id="btn-logout" class="btn-danger">
+            <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+          </button>
+        </div>
+
+        <div class="card quick-actions">
+          <h3><i class="fas fa-bolt"></i> Acciones Rápidas</h3>
+          <div class="action-buttons">
+            <a href="#/transfers" class="action-btn">
+              <i class="fas fa-exchange-alt"></i>
+              <span>Transferir</span>
+            </a>
+            <a href="#/deposits" class="action-btn">
+              <i class="fas fa-plus-circle"></i>
+              <span>Depositar</span>
+            </a>
+            <a href="#/accounts" class="action-btn">
+              <i class="fas fa-wallet"></i>
+              <span>Mis Cuentas</span>
+            </a>
+            <a href="#/cards" class="action-btn">
+              <i class="fas fa-credit-card"></i>
+              <span>Tarjetas</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card recent-activity">
+          <h3><i class="fas fa-history"></i> Actividad Reciente</h3>
+          <div id="recent-movements" class="movements-list">
+            <p class="no-data">No hay movimientos recientes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista de Perfil -->
+    <section data-view="profile-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-user"></i> Mi Perfil</h2>
+        <p>Gestiona tu información personal</p>
+      </div>
+      <div id="profile-content" class="card">
+        <!-- Contenido del perfil se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <!-- Vista de Cuentas -->
+    <section data-view="accounts-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-wallet"></i> Mis Cuentas</h2>
+        <p>Gestiona tus cuentas bancarias</p>
+      </div>
+      <div id="accounts-content" class="card">
+        <!-- Contenido de cuentas se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <!-- Vista de Transferencias -->
+    <section data-view="transfers-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-exchange-alt"></i> Transferencias</h2>
+        <p>Transfiere dinero entre tus cuentas</p>
+      </div>
+      <div id="transfers-content" class="card">
+        <!-- Contenido de transferencias se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <!-- Vista de Depósitos -->
+    <section data-view="deposits-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-plus-circle"></i> Depósitos</h2>
+        <p>Simula ingresos de dinero a tus cuentas</p>
+      </div>
+      <div id="deposits-content" class="card">
+        <!-- Contenido de depósitos se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <!-- Vista de Tarjetas -->
+    <section data-view="cards-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-credit-card"></i> Mis Tarjetas</h2>
+        <p>Gestiona tus tarjetas de crédito y débito</p>
+      </div>
+      <div id="cards-content" class="card">
+        <!-- Contenido de tarjetas se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <!-- Vista de Préstamos -->
+    <section data-view="loans-view" class="view hidden">
+      <div class="page-header">
+        <h2><i class="fas fa-hand-holding-usd"></i> Préstamos</h2>
+        <p>Gestiona tus préstamos y solicitudes</p>
+      </div>
+      <div id="loans-content" class="card">
+        <!-- Contenido de préstamos se cargará dinámicamente -->
+      </div>
+    </section>
+
+    <footer>
+      <small>Proyecto integrador - Etapa 1 · Demo</small>
+    </footer>
+  </main>
+
+  <script src="Cliente.js"></script>
+  <script src="Movimiento.js"></script>
+  <script src="Cuenta.js"></script>
+  <script src="Tarjeta.js"></script>
+  <script src="Prestamo.js"></script>
+  <script src="SistemaFintech.js"></script>
+  <script src="router.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* Estilos para el Componente de Registro de Persona */
+
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas de los campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Campos de entrada de texto y fecha */
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Estados de foco para los campos */
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Botón de envío */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Estado hover del botón */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de resultados */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e8;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Estilo para errores */
+.error {
+    background-color: #ffe8e8;
+    border-left-color: #f44336;
+    color: #d32f2f;
+}
+
+/* Estilos adicionales para el formulario de registro */
+.registro-form {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenido del resultado */
+.result h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.result p {
+    margin: 8px 0;
+}
+
+.result ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.result pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Responsive design para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    input[type="text"],
+    input[type="date"] {
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+/* Animaciones suaves para transiciones */
+input[type="text"],
+input[type="date"],
+button {
+    transition: all 0.3s ease;
+}
+
+/* Estilos para campos válidos */
+input.valid {
+    border-color: #4CAF50;
+    background-color: #e8f5e8;
+}
+
+/* Estilos para campos inválidos */
+input.invalid {
+    border-color: #f44336;
+    background-color: #ffe8e8;
+}
