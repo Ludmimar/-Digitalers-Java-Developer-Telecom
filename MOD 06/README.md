@@ -56,7 +56,17 @@ Al finalizar este módulo podrás:
 
 *Este módulo es clave para integrar todas las habilidades de programación y colaboración aprendidas en los módulos anteriores.*
 
-✍️ Autor
+## 👨‍💻 Autor
 
-Martos Ludmila  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+**Desarrollador**: Ludmila Martos  
+**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
+**Etapa**: 3 - Modelo de Negocios Completo
+
+## 📞 Contacto
+
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
+
+---
 
