@@ -30,8 +30,6 @@ Dominar las **estructuras de repetición en Java** para optimizar procesos, redu
 ## 👨‍💻 Autor
 
 **Desarrollador**: Ludmila Martos  
-**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
-**Etapa**: 3 - Modelo de Negocios Completo
 
 ## 📞 Contacto
 
@@ -39,4 +37,3 @@ Dominar las **estructuras de repetición en Java** para optimizar procesos, redu
 - **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
 - **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
----
