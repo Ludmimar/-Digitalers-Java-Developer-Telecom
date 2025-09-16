@@ -1,4 +1,4 @@
-# 📘 Módulo 9: Introducción a Bases de Datos y SQL con IA
+# 📘 Módulo 9: Desarrollo Web con IA e Integración Fullstack
 
 En este módulo aprenderás a generar interfaces web dinámicas, integrar la lógica de backend con frontend y usar IA para acelerar el proceso de desarrollo. Además, trabajarás con prototipos funcionales basados en objetos y publicarás tus proyectos en línea.
 
