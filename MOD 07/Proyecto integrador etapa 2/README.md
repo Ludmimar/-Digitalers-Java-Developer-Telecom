@@ -19,8 +19,6 @@ Un sistema completo de gestión financiera desarrollado con JavaScript vanilla, 
 - [Pruebas Unitarias](#-pruebas-unitarias)
 - [Capturas de Pantalla](#-capturas-de-pantalla)
 - [API y Documentación](#-api-y-documentación)
-- [Contribución](#-contribución)
-- [Licencia](#-licencia)
 
 ## 🚀 Características
 
@@ -253,37 +251,19 @@ class SistemaFintech {
 - [ ] Seguridad avanzada (hash de passwords)
 - [ ] Base de datos persistente
 
-## 🤝 Contribución
 
-### Cómo Contribuir
-1. **Fork** el proyecto
-2. **Crear** una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** a la rama (`git push origin feature/AmazingFeature`)
-5. **Abrir** un Pull Request
-
-### Estándares de Código
-- Usar **JavaScript ES6+**
-- Seguir **convenciones de nomenclatura** consistentes
-- Incluir **comentarios JSDoc** para métodos públicos
-- Escribir **pruebas unitarias** para nuevas funcionalidades
-- Mantener **compatibilidad** con navegadores modernos
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ## 👨‍💻 Autor
 
-**Desarrollador**: [Tu Nombre]
-**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador
-**Etapa**: 2 - Desarrollo de Clase Cliente
+- **Desarrollador**: Ludmila Martos
+- **Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador
+- **Etapa**: 2 - Desarrollo de Clase Cliente
 
 ## 📞 Contacto
 
-- **Email**: [tu.email@ejemplo.com]
-- **LinkedIn**: [tu-linkedin]
-- **GitHub**: [tu-github]
+-  [Email](ludmilamartos@gmail.com)
+-  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+- [GitHub](https://github.com/Ludmimar)
 
 ---
 
@@ -294,3 +274,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ![Fintech](https://img.shields.io/badge/Fintech-System-green?style=for-the-badge&logo=bank&logoColor=white)
 
 </div>
+
