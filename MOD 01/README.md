@@ -30,8 +30,6 @@ Brindar una base sólida en programación con **Java**, comprendiendo desde los 
 ## 👨‍💻 Autor
 
 **Desarrollador**: Ludmila Martos  
-**Proyecto**: Sistema de Gestión Fintech - Proyecto Integrador  
-**Etapa**: 3 - Modelo de Negocios Completo
 
 ## 📞 Contacto
 
