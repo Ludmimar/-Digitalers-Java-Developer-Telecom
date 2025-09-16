@@ -1,0 +1,43 @@
+PROMPT PARA IA - GENERAR CÓDIGO SQL PARA TABLA DETALLES
+=========================================================
+
+PROMPT:
+
+"Genera código SQL para insertar 15 registros en la tabla DETALLES de una base de datos MySQL.
+
+CONTEXTO DE LA BASE DE DATOS:
+- Base de datos: TECNO_DB
+- Tabla FACTURAS: 5 registros con IDs 1, 2, 3, 4, 5
+- Tabla ARTICULOS: 4 registros con IDs 95, 157, 335, 411
+
+ESTRUCTURA DE LA TABLA DETALLES:
+- DETALLE_ID (INT AUTO_INCREMENT PRIMARY KEY)
+- ARTICULO_ID (INT - FK hacia ARTICULOS)
+- FACTURA_ID (INT - FK hacia FACTURAS)  
+- CANTIDAD (INT NOT NULL)
+
+REQUISITOS ESPECÍFICOS:
+1. Generar exactamente 15 registros INSERT
+2. Los ARTICULO_ID deben ser válidos (95, 157, 335, 411)
+3. Los FACTURA_ID deben ser válidos (1, 2, 3, 4, 5)
+4. Las CANTIDADES deben ser números enteros positivos realistas (1-10)
+5. Distribuir los artículos entre las facturas de manera lógica
+6. Incluir comentarios explicativos
+7. El código debe ser ejecutable en MySQL
+8. Usar TRUNCATE TABLE DETALLES al inicio para limpiar la tabla
+
+DATOS DE REFERENCIA:
+FACTURAS:
+- ID 1: Cliente Gloria, Monto 1589.50
+- ID 2: Cliente Carlos, Monto 979.75  
+- ID 3: Cliente Gonzalo, Monto 513.35
+- ID 4: Cliente Santiago, Monto 2385.70
+- ID 5: Cliente Micaela, Monto 979.75
+
+ARTICULOS:
+- ID 95: Webcam con Micrófono Plug & Play, Precio 513.35
+- ID 157: Apple AirPods Pro, Precio 979.75
+- ID 335: Lavasecarropas Automático Samsung, Precio 1589.50
+- ID 411: Gloria Trevi / Gloria / CD+DVD, Precio 2385.70
+
+Genera el código SQL completo y ejecutable."

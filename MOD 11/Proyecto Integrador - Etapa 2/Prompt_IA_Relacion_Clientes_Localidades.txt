@@ -1,0 +1,22 @@
+PROMPT PARA IA - RELACIÓN CLIENTES Y LOCALIDADES
+==================================================
+
+PROMPT:
+
+"Modifica el código SQL de la base de datos TECNO_DB para establecer una relación entre las tablas CLIENTES y LOCALIDADES. 
+
+Requisitos específicos:
+1. La tabla CLIENTES debe tener una columna LOCALIDAD_ID que sea una clave foránea
+2. Esta columna debe referenciar al campo LocalidadID de la tabla LOCALIDADES
+3. La relación debe permitir valores NULL en LOCALIDAD_ID (un cliente puede no tener localidad asignada)
+4. Incluye datos de ejemplo para la tabla LOCALIDADES con al menos 5 localidades argentinas
+5. Actualiza algunos registros de clientes existentes para asignarles localidades
+6. Incluye consultas de verificación para mostrar la relación funcionando
+7. El código debe ser compatible con MySQL/MariaDB
+8. Incluye manejo de errores para evitar duplicados o referencias inválidas
+
+Estructura actual:
+- Tabla CLIENTES: CLIENTE_ID (PK), NOMBRE, APELLIDO, CUIT, DIRECCION, OBSERVACIONES
+- Tabla LOCALIDADES: LocalidadID (PK), Nombre, CP, Provincia
+
+Genera el código SQL completo y ejecutable."
