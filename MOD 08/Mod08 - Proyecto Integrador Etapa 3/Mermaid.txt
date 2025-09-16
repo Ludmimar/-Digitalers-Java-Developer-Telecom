@@ -1,0 +1,34 @@
+classDiagram
+  class Cliente {
+    -id
+    -nombre
+    -apellido
+    -dni
+    -email
+    -password
+    -cuentas: Cuenta[]
+    +agregarCuenta()
+    +eliminarCuenta()
+  }
+
+  class Cuenta {
+    -codigo
+    -saldo
+    -movimientos: Movimiento[]
+    +depositar()
+    +retirar()
+    +consultarSaldo()
+  }
+
+  class Movimiento {
+    -tipo
+    -monto
+    -fecha
+  }
+
+  class Transferencia {
+    +realizar(cuentaOrigen, cuentaDestino, monto)
+  }
+
+  Cliente "1" --> "*" Cuenta
+  Cuenta "1" --> "*" Movimiento

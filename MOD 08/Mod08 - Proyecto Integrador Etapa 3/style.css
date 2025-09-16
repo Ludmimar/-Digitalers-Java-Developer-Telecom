@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+h1, h2 {
+  color: #0077cc;
+}
+
+input, button, select {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#dashboard {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+#resultados {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.mensaje {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #0077cc;
+  background-color: #e6f3ff;
+  color: #004b80;
+  font-weight: bold;
+  width: 
+  300px;
+}
+
+#mensaje {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.tarjeta-movimiento {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.tarjeta-movimiento h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.tarjeta-movimiento ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tarjeta-movimiento li {
+  padding: 5px 0;
+  border-bottom: 1px dashed #ccc;
+  font-size: 0.95em;
+}
+
+.tarjeta-movimiento li:last-child {
+  border-bottom: none;
+}
+
+.card-cuenta {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+#resumenCuentas h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}

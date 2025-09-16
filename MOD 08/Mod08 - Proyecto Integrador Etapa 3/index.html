@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema Fintech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Bienvenido a Fintech</h1>
+  <div id="login">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Correo electrónico">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button onclick="login()">Ingresar</button>
+  </div>
+
+  <div id="registro">
+    <h2>Registro de nuevo cliente</h2>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="dni" placeholder="DNI">
+    <input type="email" id="nuevoEmail" placeholder="Correo electrónico">
+    <input type="password" id="nuevoPassword" placeholder="Contraseña">
+    <button onclick="registrarCliente()">Registrar</button>
+  </div>
+
+  <div id="dashboard" style="display: none;">
+    <h2>Panel del Cliente</h2>
+    <p><strong>Usuario:</strong> <span id="usuarioEmail"></span></p>
+    <button onclick="mostrarFormularioCuenta()">Crear cuenta</button>
+    <button onclick="mostrarFormularioMovimiento()">Depositar / Retirar</button>
+    <button onclick="mostrarFormularioTransferencia()">Transferir saldo</button>
+    <button onclick="logout()">Cerrar sesión</button>
+
+    <div id="formCuenta" style="display: none;">
+      <h3>Crear nueva cuenta</h3>
+      <input type="number" id="saldoInicial" placeholder="Saldo inicial">
+      <button onclick="crearCuenta()">Confirmar</button>
+    </div>
+    <!--Deposito - Retiro-->
+    <div id="formMovimiento" style="display: none;">
+      <h3>Realizar movimiento</h3>
+      <input type="text" id="codigoMovimiento" placeholder="Código de cuenta">
+      <select id="tipoMovimiento">
+        <option value="deposito">Depósito</option>
+        <option value="retiro">Retiro</option>
+      </select>
+      <input type="number" id="montoMovimiento" placeholder="Monto">
+      <button onclick="realizarMovimiento()">Confirmar</button>
+    </div>
+
+    <!--Transferencias-->
+    <div id="formTransferencia" style="display:none;">
+      <h3>Transferencia de saldo</h3>
+      <input type="text" id="cuentaOrigen" placeholder="Tu cuenta (ej: CTA1234)">
+      <input type="email" id="emailDestino" placeholder="Email del destinatario">
+      <input type="text" id="cuentaDestino" placeholder="Cuenta del destinatario">
+      <input type="number" id="montoTransferencia" placeholder="Monto a transferir">
+      <button onclick="realizarTransferencia()">Confirmar transferencia</button>
+    </div>
+
+    <!-- Sección que se actualiza con las cuentas y saldo -->
+    <div id="resumenCuentas">
+      <h3>Tus cuentas</h3>
+      <div id="listaCuentas"></div>
+    </div>
+
+    <!--Filtro de Movimientos-->
+    <div id="filtrosMovimientos" style="display: none; margin-top: 20px;">
+      <h3>Filtrar movimientos</h3>
+      <label for="filtroCuenta">Cuenta:</label>
+      <select id="filtroCuenta">
+        <option value="todas">Todas</option>
+      </select>
+      <label for="filtroTipo">Tipo:</label>
+      <select id="filtroTipo">
+        <option value="todos">Todos</option>
+        <option value="deposito">Depósito</option>
+        <option value="retiro">Retiro</option>
+        <option value="transferencia saliente">Transferencia Saliente</option>
+        <option value="transferencia recibida">Transferencia Recibida</option>
+      </select>
+      <button onclick="mostrarResumenMovimientos()">Aplicar filtros</button>
+    </div>
+
+    <!-- ✅ Sección para mostrar resumen de movimientos -->
+    <div id="resultados"></div>
+  </div>
+
+  <!--Mensaje de movimientos-->
+  <div id="mensaje"></div>
+
+
+  <script src="models/Cliente.js"></script>
+  <script src="models/Cuenta.js"></script>
+  <script src="models/Movimiento.js"></script>
+  <script src="app.js"></script>
+  <!-- ✅ Botón para limpiar LocalStorage -->
+  <div id="botonLimpiar" style="text-align:center; margin-top: 30px;">
+    <button onclick="limpiarLocalStorage()"
+      style="background-color: crimson; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+      Limpiar todos los datos guardados
+    </button>
+  </div>
+  <div id="verUsuarios" style="text-align:center; margin-top: 15px;">
+    <button onclick="mostrarUsuariosRegistrados()"
+      style="background-color: #333; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+      Ver usuarios registrados
+    </button>
+    <div id="listaUsuarios" style="margin-top: 10px;"></div>
+  </div>
+
+
+</body>
+
+</html>

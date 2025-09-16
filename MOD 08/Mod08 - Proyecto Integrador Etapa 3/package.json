@@ -1,0 +1,26 @@
+{
+  "name": "mod07---proyecto-integrador-etapa-2",
+  "version": "1.0.0",
+  "description": "Curso Java Digitalers - Telecom\r Modulo 6- Proyecto Integrador - Etapa 1",
+  "main": "app.js",
+  "directories": {
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludmimar/Mod06.Digitalers.Proyecto-Integrador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludmimar/Mod06.Digitalers.Proyecto-Integrador/issues"
+  },
+  "homepage": "https://github.com/Ludmimar/Mod06.Digitalers.Proyecto-Integrador#readme",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
