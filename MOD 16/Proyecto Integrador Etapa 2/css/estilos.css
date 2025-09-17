@@ -1,174 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-body { 
+body {
+    color: #333;
+    font: 400;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: #f8f9fa;
-    line-height: 1.6;
+    margin: 0;
+
+
 }
 
-/* Selector descendente - afecta elementos dentro de nav */
-nav ul {
-    list-style: none;
-    background-color: #343a40;
-    padding: 1rem 0;
-    text-align: center;
+
+nav h1,
+footer h1 {
+    font-family: 'Coiny', cursive;
+
 }
 
-nav li {
-    display: inline-block;
-    margin: 0 1rem;
+nav h1 {
+    margin-right: auto;
 }
 
-nav a {
-    color: #ffffff;
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
     text-decoration: none;
-    font-weight: 700;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    
 }
+
 
 nav a:hover {
-    background-color: #495057;
-}
-
-/* Selector grupal - afecta múltiples elementos */
-h1, h2, h3, h4 {
-    margin-bottom: 1rem;
-}
-
-h1 { 
-    font-size: 64px;
-    text-align: center;
-    margin: 2rem 0;
-}
-
-h1, strong {
-    font-weight: 700;
-}
-
-h1 strong {
-    font-family: 'Coiny', cursive;
-    font-size: 117.33px;
-    color: #007bff;
-}
-
-h2 {
-    font-weight: 400; 
-    font-size: 26.66px;
-    text-align: center;
-    color: #6c757d;
-}
-
-h3 { 
-    font-weight: 900;
-    font-size: 2rem;
-    color: #343a40;
-}
-
-h4 {
-    font-size: 1.5rem;
-    color: #007bff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Header styling */
-header {
-    background-color: #ffffff;
-    padding: 3rem 2rem;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-header img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 2rem;
-}
-
-/* Main content */
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-section {
-    background-color: #ffffff;
-    margin: 2rem 0;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-section img {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    margin: 1rem auto;
-    display: block;
-}
-
-/* Services list */
-ol {
-    padding-left: 2rem;
-}
-
-ol li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    background-color: #f8f9fa;
-    border-left: 4px solid #007bff;
-}
-
-/* Footer */
-footer {
-    background-color: #343a40;
-    color: #ffffff;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
-}
-
-footer a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    h1 strong {
-        font-size: 3rem;
-    }
-    
-    nav li {
-        display: block;
-        margin: 0.5rem 0;
-    }
-    
-    main {
-        padding: 1rem;
-    }
-    
-    section {
-        padding: 1rem;
-    }
+nav {
+       padding: 20px;
+}
+
+
+p { border: none;}
+
+
+
+nav a {
+    text-transform: capitalize;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4
+    {
+    color:black ;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+ 
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+
+aside img {
+    height: auto;
+    width: 50%;
+}
+
+
+
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+footer,
+main,
+header,
+aside {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #FCEE21;
+
+}
+
+
+
+
+
+
+
+
+h4 {
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+   
+}
+
+footer h1 {
+    font-size: 33px;
+}
+
+section {
+    width: 45%;
+}
+
+main {
+    font-size: 21px;
 }
