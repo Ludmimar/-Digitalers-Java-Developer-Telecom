@@ -26,7 +26,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 13 | Funciones de agrupamiento y joins – count, sum, group by, join, IA | ✅ Completado |
 | 14 | Funciones avanzadas – subconsultas, case, texto, fecha, matemáticas, backup | ✅ Completado |
 | 15 | HTML básico – estructura, texto, CSS inicial, integración con IA | ✅ Completado |
-| 16 | HTML y CSS – imágenes, vínculos, anclas, cajas, propiedades y IA | 🔹 Próximo |
+| 16 | HTML y CSS – imágenes, vínculos, anclas, cajas, propiedades y IA | ✅ Completado |
 | 17 | Formularios HTML – inputs, menús, validación, Pattern y DatePicker con IA | 🔹 Próximo |
 | 18 | Publicación de proyecto – formulario funcional, errores con IA, FTP, GitHub Pages | 🔹 Próximo |
 | 19 | Flex, multimedia y tablas – Flex, video, iframe, tablas, CSS con IA | 🔹 Próximo |
