@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    background-color: #F2F2F2;
+    margin: 0;
+
+
+   
+
+}
+
+
+
+
+img {
+    width: 100%;
+}
+
+
+nav {
+
+    width: 100%;
+    border-top: 2px solid rgb(252, 238, 33);
+
+
+}
+nav #barraNavegacion, footer div, main {
+
+    margin: 0 auto;
+   
+
+    width: 90%;
+
+}
+
+
+
+
+.contenedor {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+
+   
+}
+
+section {
+
+    width: 50%;
+
+}
+
+
+
+h1 {
+    font-size: 4em;
+}
+
+
+h1, strong {
+    font-weight: 700;
+}
+
+
+
+h1 strong, nav h1, footer h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 7.33rem;
+}
+
+
+
+nav h1, footer h1 {
+
+    font-size: 3.5em;
+    margin: 0;
+  
+
+}
+
+footer {
+
+    width: 100%;
+    background-color: rgb(252, 238, 33);
+
+
+}
+
+ol {
+
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+
+}
+
+.color {
+
+    background-color: rgba(252, 238, 33, 0.7);
+    font-weight: 700;
+    font-size: 2.75em;
+}
+
+
+
+
+
+
+h2 {
+    font-weight: 400;
+    font-size: 1.66em;
+    background-color: rgb(252, 238, 33);
+
+    
+
+
+}
+
+form { width: 50%;}
+input,textarea { border:1px solid black; width: 50%;height: 40px; }
+
+input[type="reset"],button { width: 25%;background-color: black; color: white; height: 30px;}
+textarea { height: 100px; resize: none; margin-bottom: 0.5em;}
+
+h3 {
+    font-weight: 900;
+    font-size: 2.66em;
+}
+
+
+#links, nav h1 {
+    width: 33.33%;
+    margin: 0;
+ 
+
+
+}
+
+
+
+
+
+
+#redes p {
+
+    font-size: 2.08em;
+    color: #808080;
+    font-weight: 700;
+
+}
+label,textarea{
+    display:block;
+}
+label,textarea {
+ 
+    font-size:1.66em;
+    font-weight: 700;
+
+
+ 
+ 
+}
+
+label span { 
+    color:#C1272D; 
+
+}
+
+#redes div {
+
+
+    width: 8.33%;
+
+}
+
+.contenedor img {
+
+    width: 50%;
+
+}
+
+
+
+p {
+    font-size: 1.75em;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+  
+
+}
+
+#links a {
+    text-transform: capitalize;
+
+
+}
+
+
+
+#links a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+#redes img:hover {
+    filter: opacity(0.5);
+
+}
+
+
+#parrafo {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+h4 {
+    font-size: 3.41em;
+    text-transform: uppercase;
+
+}
+
+
+
+#enunciado {
+
+    font-weight: 700;
+    font-size: 4.25em;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+     
+  
