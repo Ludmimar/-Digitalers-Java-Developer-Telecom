@@ -28,7 +28,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 15 | HTML básico – estructura, texto, CSS inicial, integración con IA | ✅ Completado |
 | 16 | HTML y CSS – imágenes, vínculos, anclas, cajas, propiedades y IA | ✅ Completado |
 | 17 | Formularios HTML – inputs, menús, validación, Pattern y DatePicker con IA | ✅ Completado |
-| 18 | Publicación de proyecto – formulario funcional, errores con IA, FTP, GitHub Pages | 🔹 Próximo |
+| 18 | Publicación de proyecto – formulario funcional, errores con IA, FTP, GitHub Pages | ✅ Completado |
 | 19 | Flex, multimedia y tablas – Flex, video, iframe, tablas, CSS con IA | 🔹 Próximo |
 | 20 | Java básico – JDK, JVM, sintaxis, Eclipse, Maven, variables, operadores, flujo | 🔹 Próximo |
 | 21 | Paradigma Orientado a Objetos – clase, objeto, atributos, métodos, encapsulamiento | 🔹 Próximo |
