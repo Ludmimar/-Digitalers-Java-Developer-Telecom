@@ -1,5 +1,22 @@
 # 💻 Curso Java Fullstack & Desarrollo Web
 
+[![Java](https://img.shields.io/badge/Java-8%2B-orange?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.java.net/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
+
+### 📊 **Estado del Proyecto**
+![Módulos Completados](https://img.shields.io/badge/Módulos%20Completados-20%2F32-green?style=flat-square)
+![Progreso](https://img.shields.io/badge/Progreso-62%25-blue?style=flat-square)
+![Última Actualización](https://img.shields.io/badge/Última%20Actualización-Diciembre%202024-lightblue?style=flat-square)
+![Licencia](https://img.shields.io/badge/Licencia-Educativa-purple?style=flat-square)
+
+---
+
 Bienvenido al curso de **Java Fullstack** 🎯.  
 Aquí aprenderás desde fundamentos de Java, estructuras de datos, programación orientada a objetos, hasta desarrollo web completo con frontend y backend, incluyendo integración de IA y servicios web.  
 
@@ -12,23 +29,49 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 - Motivación para aprender programación
 - Acceso a internet para descargar herramientas
 
-### Tecnologías Principales
-- **Java 8+** - Lenguaje principal
-- **HTML5/CSS3** - Desarrollo frontend
-- **JavaScript ES6+** - Interactividad web
-- **SQL** - Bases de datos
-- **Maven** - Gestión de proyectos
-- **Git/GitHub** - Control de versiones
-- **Eclipse/VS Code** - IDEs
-- **IA Tools** - ChatGPT, GitHub Copilot
+### 🛠️ Tecnologías Principales
 
-### Estructura del Repositorio
+#### 💻 **Lenguajes de Programación**
+![Java](https://img.shields.io/badge/Java-8%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+#### 🔧 **Herramientas de Desarrollo**
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+#### 🤖 **Inteligencia Artificial**
+![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-181717?style=for-the-badge&logo=github&logoColor=white)
+![AI Tools](https://img.shields.io/badge/AI%20Tools-FF6B6B?style=for-the-badge&logo=robot&logoColor=white)
+
+#### 📊 **Bases de Datos**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Database](https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=database&logoColor=white)
+
+### 📁 **Estructura del Repositorio**
+
+| Fase | Módulos | Tecnologías | Estado |
+|------|---------|-------------|--------|
+| 🟢 **Fundamentos** | MOD 01-05 | Java Básico, POO | ✅ Completo |
+| 🟡 **Frontend** | MOD 06-09 | HTML, CSS, JS, IA | ✅ Completo |
+| 🔵 **Bases de Datos** | MOD 10-14 | SQL, MySQL, IA | ✅ Completo |
+| 🟠 **Web Avanzado** | MOD 15-19 | HTML5, CSS3, Flexbox | ✅ Completo |
+| 🔴 **Backend Java** | MOD 20+ | Java Avanzado, Servlets | 🔄 En Progreso |
+
+#### 📂 **Contenido por Módulo**
 ```
-📁 MOD 01-05: Fundamentos de Java
-📁 MOD 06-09: Desarrollo Web Frontend
-📁 MOD 10-14: Bases de Datos y SQL
-📁 MOD 15-19: HTML/CSS Avanzado
-📁 MOD 20+: Java Avanzado y Backend
+📁 MOD XX/
+├── 📄 README.md              # Documentación del módulo
+├── 📁 Laboratorio XX/         # Ejercicios prácticos
+├── 📁 Desafío/               # Retos de programación
+├── 📁 Proyecto Integrador/   # Proyectos por etapas
+└── 📄 *.pdf                  # Material de apoyo
 ```  
 
 ---
