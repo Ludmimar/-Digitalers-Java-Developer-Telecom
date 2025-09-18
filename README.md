@@ -12,7 +12,7 @@
 ### 📊 **Estado del Proyecto**
 ![Módulos Completados](https://img.shields.io/badge/Módulos%20Completados-21%2F32-green?style=flat-square)
 ![Progreso](https://img.shields.io/badge/Progreso-66%25-blue?style=flat-square)
-![Última Actualización](https://img.shields.io/badge/Última%20Actualización-Diciembre%202024-lightblue?style=flat-square)
+![Última Actualización](https://img.shields.io/badge/Última%20Actualización-Septiembre%202025-lightblue?style=flat-square)
 ![Licencia](https://img.shields.io/badge/Licencia-Educativa-purple?style=flat-square)
 
 ---
