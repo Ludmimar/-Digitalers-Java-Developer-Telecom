@@ -47,8 +47,8 @@ Al finalizar este módulo podrás:
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
--  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
-- [GitHub](https://github.com/Ludmimar)
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
 ---

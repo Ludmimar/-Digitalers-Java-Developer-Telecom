@@ -1,8 +1,10 @@
-# Módulo 18: Publicación de Proyecto  
+# 🚀 Módulo 18: Publicación de Proyecto Web
 
-En este módulo aprenderás a transformar tu proyecto en un sitio web funcional y a publicarlo en Internet utilizando diferentes herramientas y servicios.  
+En este módulo aprenderás a transformar tu proyecto en un sitio web funcional y a publicarlo en Internet utilizando diferentes herramientas y servicios.
 
-## Contenidos  
+---
+
+## 📚 Contenido del módulo  
 
 1. **Formulario funcional: lenguajes de servidor**  
    - Introducción a la interacción entre frontend y backend.  
@@ -28,24 +30,25 @@ En este módulo aprenderás a transformar tu proyecto en un sitio web funcional 
    - Publicación de un sitio estático con GitHub Pages.  
    - Configuración de la URL y despliegue automático.  
 
----  
-
-✅ Al finalizar este módulo podrás:  
-- Crear un formulario conectado a un lenguaje de servidor.  
-- Detectar y resolver errores con la ayuda de IA.  
-- Aplicar correctamente selectores `id` y `class`.  
-- Publicar un sitio en un servidor web o mediante GitHub Pages.  
+## 🎯 Objetivo
+Al finalizar este módulo podrás:  
+✅ Crear un formulario conectado a un lenguaje de servidor.  
+✅ Detectar y resolver errores con la ayuda de IA.  
+✅ Aplicar correctamente selectores `id` y `class`.  
+✅ Publicar un sitio en un servidor web o mediante GitHub Pages.
 
 ---
 
+*Este módulo te permitirá llevar tus proyectos web al siguiente nivel, publicándolos en Internet y haciéndolos accesibles globalmente.*
+
 ## 👨‍💻 Autor
 
-- **Desarrollador**: Ludmila Martos
+**Desarrollador**: Ludmila Martos
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
--  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
-- [GitHub](https://github.com/Ludmimar)
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
 ---

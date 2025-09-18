@@ -1,8 +1,10 @@
-# Módulo 17: Formularios — Integración con IA  
+# 📝 Módulo 17: Formularios HTML con Integración de IA
 
-En este módulo aprenderás a crear y personalizar formularios en HTML, aplicar estilos con CSS y aprovechar la inteligencia artificial para generar validaciones avanzadas.  
+En este módulo aprenderás a crear y personalizar formularios en HTML, aplicar estilos con CSS y aprovechar la inteligencia artificial para generar validaciones avanzadas.
 
-## Contenidos  
+---
+
+## 📚 Contenido del módulo  
 
 1. **Formularios con HTML**  
    - Estructura y atributos principales de un formulario.  
@@ -29,27 +31,27 @@ En este módulo aprenderás a crear y personalizar formularios en HTML, aplicar 
    - Integración de selectores de fecha.  
    - Uso de herramientas inteligentes para mejorar la experiencia del usuario.  
 
----  
+## 🎯 Objetivo
+Al finalizar este módulo podrás:  
+✅ Diseñar formularios completos en HTML con estilos en CSS.  
+✅ Validar entradas de usuario de forma eficiente.  
+✅ Utilizar IA para generar patrones y reglas de validación complejas.  
+✅ Incorporar funcionalidades avanzadas como calendarios interactivos.
 
-✅ Al finalizar este módulo podrás:  
-- Diseñar formularios completos en HTML con estilos en CSS.  
-- Validar entradas de usuario de forma eficiente.  
-- Utilizar IA para generar patrones y reglas de validación complejas.  
-- Incorporar funcionalidades avanzadas como calendarios interactivos.  
 ---
 
-*Este módulo te permitirá dar un salto hacia un nivel avanzado en SQL, combinando análisis de datos con buenas prácticas de administración.*
+*Este módulo te permitirá crear formularios web interactivos y funcionales, combinando HTML, CSS y validaciones avanzadas con el apoyo de IA.*
 
 ---
 
 ## 👨‍💻 Autor
 
-- **Desarrollador**: Ludmila Martos
+**Desarrollador**: Ludmila Martos
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
--  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
-- [GitHub](https://github.com/Ludmimar)
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
 ---

@@ -1,8 +1,10 @@
-# Módulo 20: Introducción a Java y Estructuras de Control  
+# ☕ Módulo 20: Introducción a Java y Estructuras de Control
 
-En este módulo comenzarás tu recorrido en el mundo de **Java**, entendiendo su entorno, sintaxis y las estructuras básicas que permiten construir programas dinámicos.  
+En este módulo comenzarás tu recorrido en el mundo de **Java**, entendiendo su entorno, sintaxis y las estructuras básicas que permiten construir programas dinámicos.
 
-## Contenidos  
+---
+
+## 📚 Contenido del módulo  
 
 1. **Introducción a Java**  
    - Historia y características principales del lenguaje.  
@@ -33,24 +35,35 @@ En este módulo comenzarás tu recorrido en el mundo de **Java**, entendiendo su
    - Bucles (`while`, `do-while`, `for`).  
    - Control de flujo con `break` y `continue`.  
 
----  
-
-✅ Al finalizar este módulo podrás:  
-- Comprender el **entorno de Java** y su ecosistema (JDK, JVM, IDE).  
-- Crear proyectos Java básicos con **Eclipse** y **Maven**.  
-- Utilizar **variables, constantes y operadores** correctamente.  
-- Implementar **estructuras de control de flujo** en programas funcionales.  
+## 🎯 Objetivo
+Al finalizar este módulo podrás:  
+✅ Comprender el **entorno de Java** y su ecosistema (JDK, JVM, IDE).  
+✅ Crear proyectos Java básicos con **Eclipse** y **Maven**.  
+✅ Utilizar **variables, constantes y operadores** correctamente.  
+✅ Implementar **estructuras de control de flujo** en programas funcionales.
 
 ---
 
+## 🛠️ Tecnologías Utilizadas
+
+- **Java 8+**: Lenguaje de programación principal
+- **JDK (Java Development Kit)**: Kit de desarrollo
+- **JVM (Java Virtual Machine)**: Máquina virtual
+- **Eclipse IDE**: Entorno de desarrollo integrado
+- **Maven**: Herramienta de gestión de proyectos y dependencias
+
+---
+
+*Este módulo establece las bases sólidas para el desarrollo profesional en Java, preparándote para conceptos más avanzados.*
+
 ## 👨‍💻 Autor
 
-- **Desarrollador**: Ludmila Martos
+**Desarrollador**: Ludmila Martos
 
 ## 📞 Contacto
 
--  [Email](ludmilamartos@gmail.com)
--  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
-- [GitHub](https://github.com/Ludmimar)
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
 
 ---
