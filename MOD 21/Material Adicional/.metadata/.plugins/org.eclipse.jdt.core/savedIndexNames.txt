@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\OCTAVIO-LAPTOP\Dropbox\EDUCACION IT\Java Standard\Codigos\Clase02\.metadata\.plugins\org.eclipse.jdt.core
+4238309077.index
+914287006.index
+300820216.index
+1967315801.index

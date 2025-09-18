@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\OCTAVIO-LAPTOP\Dropbox\EDUCACION IT\Java Standard\Codigos\Clase02\Paquetes\src\main\java\com\educacionIT\javase\principal\App.java"/>
+			<item value="C:\Users\OCTAVIO-LAPTOP\Dropbox\EDUCACION IT\Java Standard\Codigos\Clase02\Metodos\src\main\java\com\educacionIT\javase\principal\Auto.java"/>
+			<item value="C:\Users\OCTAVIO-LAPTOP\Dropbox\EDUCACION IT\Java Standard\Codigos\Clase02\FundamentosPOO"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.educacionIT.javase.Encapsulamiento"/>
+			<item value="com.educacionIT.javase.Paquetes"/>
+			<item value="com.educacionIT.javase.Metodos"/>
+			<item value="com.educacionIT.javase.FundamentosPOO"/>
+		</list>
+		<list key="groupId">
+			<item value="com.educacionIT.javase"/>
+		</list>
+		<list key="artifactId">
+			<item value="Encapsulamiento"/>
+			<item value="Paquetes"/>
+			<item value="Metodos"/>
+			<item value="FundamentosPOO"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

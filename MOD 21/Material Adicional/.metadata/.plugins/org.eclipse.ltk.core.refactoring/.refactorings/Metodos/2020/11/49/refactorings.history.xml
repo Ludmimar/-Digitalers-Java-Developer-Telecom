@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.educacionIT.javase.principal&apos; to &apos;Paquetes/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Metodos&apos;&#x0D;&#x0A;- Destination element: &apos;Paquetes/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Metodos/src/main/java/com.educacionIT.javase.principal&apos;" description="Copy package" destination="=Paquetes/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionIT.javase.principal" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1606664481086" version="1.0"/>
+</session>
