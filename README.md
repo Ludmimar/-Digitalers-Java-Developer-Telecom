@@ -10,8 +10,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 
 ### 📊 **Estado del Proyecto**
-![Módulos Completados](https://img.shields.io/badge/Módulos%20Completados-22%2F32-green?style=flat-square)
-![Progreso](https://img.shields.io/badge/Progreso-69%25-blue?style=flat-square)
+![Módulos Completados](https://img.shields.io/badge/Módulos%20Completados-23%2F32-green?style=flat-square)
+![Progreso](https://img.shields.io/badge/Progreso-72%25-blue?style=flat-square)
 ![Última Actualización](https://img.shields.io/badge/Última%20Actualización-Septiembre%202025-lightblue?style=flat-square)
 ![Licencia](https://img.shields.io/badge/Licencia-Educativa-purple?style=flat-square)
 
@@ -62,7 +62,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 🟡 **Frontend** | MOD 06-09 | HTML, CSS, JS, IA | ✅ Completo |
 | 🔵 **Bases de Datos** | MOD 10-14 | SQL, MySQL, IA | ✅ Completo |
 | 🟠 **Web Avanzado** | MOD 15-19 | HTML5, CSS3, Flexbox | ✅ Completo |
-| 🔴 **Backend Java** | MOD 20+ | Java Avanzado, POO, Herencia, Servlets | 🔄 En Progreso |
+| 🔴 **Backend Java** | MOD 20+ | Java Avanzado, POO, Herencia, Excepciones, Servlets | 🔄 En Progreso |
 
 #### 📂 **Contenido por Módulo**
 ```
@@ -119,7 +119,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 20 | Java básico – JDK, JVM, sintaxis, Eclipse, Maven, variables, operadores, flujo | ✅ Completado |
 | 21 | Paradigma Orientado a Objetos – clase, objeto, atributos, métodos, encapsulamiento | ✅ Completado |
 | 22 | Avanzado OOP – static, herencia, final, sobreescritura, polimorfismo, interfaces | ✅ Completado |
-| 23 | Excepciones – try/catch/finally, throws, throw, try-with-resources, excepciones propias | 🔹 Próximo |
+| 23 | Excepciones – try/catch/finally, throws, throw, try-with-resources, excepciones propias | ✅ Completado |
 | 24 | Generics y colecciones – Enum, Set, List, Queue, Map, Iteradores, EntrySet | 🔹 Próximo |
 | 25 | JDBC y SQL – DML, JDBC, patrón DAO, Connection, inyección SQL | 🔹 Próximo |
 | 26 | Java Standard Web – flujo de datos, archivos de caracteres y bytes, Buffer | 🔹 Próximo |
