@@ -30,7 +30,7 @@ Este repositorio se irá actualizando **módulo a módulo** con ejercicios, ejem
 | 17 | Formularios HTML – inputs, menús, validación, Pattern y DatePicker con IA | ✅ Completado |
 | 18 | Publicación de proyecto – formulario funcional, errores con IA, FTP, GitHub Pages | ✅ Completado |
 | 19 | Flex, multimedia y tablas – Flex, video, iframe, tablas, CSS con IA | ✅ Completado |
-| 20 | Java básico – JDK, JVM, sintaxis, Eclipse, Maven, variables, operadores, flujo | 🔹 Próximo |
+| 20 | Java básico – JDK, JVM, sintaxis, Eclipse, Maven, variables, operadores, flujo | ✅ Completado |
 | 21 | Paradigma Orientado a Objetos – clase, objeto, atributos, métodos, encapsulamiento | 🔹 Próximo |
 | 22 | Avanzado OOP – static, herencia, final, sobreescritura, polimorfismo, interfaces | 🔹 Próximo |
 | 23 | Excepciones – try/catch/finally, throws, throw, try-with-resources, excepciones propias | 🔹 Próximo |
